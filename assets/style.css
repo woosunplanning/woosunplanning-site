@@ -95,3 +95,10 @@ img{max-width:100%;display:block}
   .grid,.langs{grid-template-columns:repeat(2,1fr);gap:32px 18px}
   .book h1,.prose h1{font-size:26px}
 }
+
+.prompt{white-space:pre-wrap;background:#f5f7fa;border:1px solid var(--line);border-radius:8px;padding:14px 16px;font-size:15px;line-height:1.65;font-family:inherit;margin:8px 0 20px}
+.bookbox{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:start;border:1px solid var(--line);border-radius:10px;padding:20px;margin:36px 0 20px}
+.bookbox .cover{width:120px}
+.bookbox p{margin:6px 0}
+.notes{list-style:none;padding:0}
+.notes li{padding:16px 0;border-bottom:1px solid var(--line)}
