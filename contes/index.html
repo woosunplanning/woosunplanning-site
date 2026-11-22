@@ -189,4 +189,6 @@ document.querySelectorAll('button.copy').forEach(function(b){var L=b.textContent
 function done(){b.textContent='Copié';setTimeout(function(){b.textContent=L},1500)}
 if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){fallback(t);done()})}else{fallback(t);done()}})});
 function fallback(t){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}document.body.removeChild(a)}
-</script></body></html>
+</script><script type="text/javascript" src="https://wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">if(!wcs_add) var wcs_add = {};wcs_add["wa"] = "86f1c8a3428a40";if(window.wcs) {wcs_do();}</script>
+</body></html>
