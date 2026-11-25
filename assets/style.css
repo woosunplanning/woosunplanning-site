@@ -34,7 +34,7 @@ img{max-width:100%;display:block}
 .featured .label{font-size:13px;letter-spacing:.08em;color:var(--accent);font-weight:600;text-transform:uppercase}
 .featured h2{font-size:28px;line-height:1.35;margin:8px 0 6px;letter-spacing:-.01em}
 .featured .sub{color:var(--muted);margin:0 0 16px}
-.cover{border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.cover{height:auto;border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.04)}
 
 /* section */
 .section{padding:56px 0;border-top:1px solid var(--line)}
